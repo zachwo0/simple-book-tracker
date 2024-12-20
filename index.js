@@ -32,7 +32,7 @@ function handleChapterClick() {
 function handleSaveClick() {
     const now = new Date();
     const timestamp = now.toLocaleString();
-    let countStr = `[${timestamp}] <br> Total Books: ${bookCount} | Total Chapters: ${chapterCount} <br>`
+    let countStr = `<p>[${timestamp}] <br> Total Books: ${bookCount} | Total Chapters: ${chapterCount}</p>`
     saveEl.innerHTML += countStr;
 }
 
